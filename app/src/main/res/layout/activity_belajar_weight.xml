@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context="id.aidiel.belajarkeboencoding.BelajarWeight">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/colorGreen"
+        android:gravity="center"
+        android:text="WEIGHT 4"
+        android:textColor="@color/colorWhite"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="WEIGHT 1 kiri"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorOrange"
+            android:gravity="center"
+            android:text="WEIGHT 1 tengah"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBrown"
+            android:gravity="center"
+            android:text="WEIGHT 1 kanan"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorGrey"
+        android:gravity="center"
+        android:text="WEIGHT 1"
+        android:textColor="@color/colorWhite"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+</LinearLayout>
